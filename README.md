@@ -27,7 +27,7 @@ Clone repository and open cloned folder in VS Code. Within the VS Terminal insta
 
 -Install [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) by running "npm i -y" in the Terminal.
 
--copy .env.EXAMPLE to .env (cp .env.EXAMPLE .env, Windows use copy), then update values in the .env according to your mysql information
+-Copy .env.EXAMPLE to .env (cp .env.EXAMPLE .env, Windows use copy), then update values in the .env according to your mysql information
 
 ```
 DB_NAME='ecommerce_db'
