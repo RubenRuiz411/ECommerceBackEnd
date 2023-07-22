@@ -27,9 +27,19 @@ Clone repository and open cloned folder in VS Code. Within the VS Terminal insta
 
 -Install [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) by running "npm i -y" in the Terminal.
 
+-copy .env.EXAMPLE to .env (cp .env.EXAMPLE .env, Windows use copy), then update values in the .env according to your mysql information
+
+```
+DB_NAME='ecommerce_db'
+DB_USER=''
+DB_PW=''
+```
+
 -Seed the Database in the VS Code Terminal by entering "npm run seed".
 
 -Run index.js within the VS Code Terminal by entering "npm start".
+
+-Use Insomnia and routes http://localhost:3001/api/products, http://localhost:3001/api/tags, http://localhost:3001/api/categories to manipulate the SQL database
 
 
 ## Usage
