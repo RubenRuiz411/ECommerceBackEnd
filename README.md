@@ -28,6 +28,7 @@ Clone repository and open cloned folder in VS Code. Within the VS Terminal insta
 -Install [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) by running "npm i -y" in the Terminal.
 
 -Seed the Database in the VS Code Terminal by entering "npm run seed".
+
 -Run index.js within the VS Code Terminal by entering "npm start".
 
 
